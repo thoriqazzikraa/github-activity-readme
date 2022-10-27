@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: thoriqazzikraa/github-activity-readme@master
+      - uses: thoriqazzikraa/thoriqazzikraa
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
